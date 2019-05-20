@@ -22,18 +22,18 @@ to what is happening in the commit.
 
 1. Try to not group commits by file
 
-eg: "Added Feature.php model"
+```Added Feature.php model```
 
 Instead, try to group commits by concerns
 
-eg: "Implemented the API for Feature A"
-"
+```
+Implemented the API for Feature A
+
+
 Implemented Feature A those does so and so. The migration creates a table for this-and-that.
-
 This commit includes the tests and covers all standard processes, however, they don't cover this and that 
-
 edge cases, this will be done at a later stage - refer to issue #42
-"
+```
 
 2. If possible, do a pre-review of your own PR and if you find yourself getting lost or spot something that might
 
